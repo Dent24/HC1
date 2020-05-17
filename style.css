@@ -22,21 +22,21 @@ nav{
     font-weight: 600;
 }
 
-#nav{
+#na{
     display: grid;
     grid-template-columns: repeat(3,150px);
     align-items: center;
     text-align: center;
 }
 
-#nav a{
+#na a{
     text-decoration:none;
-    color: red;
+    color: rgb(206, 134, 39);
     font-size: 20px;
     transition: 0.3s;
 }
 
-#nav a:hover{
+#na a:hover{
     color: black;
     font-size: 24px;
 }
