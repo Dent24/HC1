@@ -12,13 +12,17 @@
 
 nav{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 30% 40%;
     padding: 30px;
     position:fixed;
     top:0;
     background-color: rgba(0,0,0,0.5);
     color: white;
     width: 100%;
+}
+
+#logo{
+    text-align: right;
 }
 
 #logo span{
@@ -78,5 +82,107 @@ nav{
 
 section{
     width: 1200px;
+    margin: 20px auto;
+}
+
+section h1{
+    font-family: Ngaan;
+    margin-top: 60px;
+    font-size: 32px;
+}
+
+section hr{
+    margin-bottom: 40px;
+}
+
+#about > div{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 30px;
+}
+
+#img{
+    background-image: url(./img/photo-1519984388953-d2406bc725e1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+#about > div p{
+    padding-right: 30px;
+    line-height: 50px;
+}
+
+#news{
+    position: relative;
+}
+
+#news ul{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    list-style: none;
+}
+
+#news span{
+    color: gray;
+}
+
+#news ul li{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+#news > a{
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+#contant pre{
+    text-align: center;
+    line-height: 3;
+}
+
+form{
+    width: 600px;
     margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+form input{
+    width: 49%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 16px;
+}
+
+form textarea{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+    display: block;
+    border: 1px solid black;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+}
+
+#submit:hover{
+    background-color: gray;
+}
+
+#footer{
+    background-color: black;
+    width: 100vw;
+    height: 160px;
 }
