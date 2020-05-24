@@ -106,6 +106,7 @@ section hr{
     height: 400px;
     background-size: cover;
     background-position: 0 0;
+    box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
 }
 
 #about > div p{
