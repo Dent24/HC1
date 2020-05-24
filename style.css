@@ -14,7 +14,11 @@ nav{
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 30px;
-    box-shadow: 0px 30px 30px black;
+    position:fixed;
+    top:0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
 }
 
 #logo span{
@@ -38,7 +42,7 @@ nav{
 }
 
 #na a:hover{
-    color: black;
+    color: white;
     font-size: 24px;
 }
 
@@ -46,4 +50,5 @@ nav{
     background-image: url(./img/max-oh-OQwjPYTeaiw-unsplash.jpg);
     background-size: cover;
     height: 100vh;
+    background-position: center;
 }
