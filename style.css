@@ -141,6 +141,10 @@ section hr{
     color: black;
 }
 
+#news > a:hover{
+    color: rgb(206, 134, 39);
+}
+
 #contant p{
     width: 90%;
     text-align: center;
@@ -198,7 +202,7 @@ footer{
 
 }
 
-footer p{
+footer span{
     display: inline;
     font-family: Ngaan;
 }
