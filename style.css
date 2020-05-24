@@ -141,12 +141,8 @@ section hr{
     color: black;
 }
 
-#contant{
-    text-align: center;
-}
-
 #contant p{
-    width: 80%;
+    width: 90%;
     text-align: center;
     line-height: 3;
     margin: 0px auto;
